@@ -4,9 +4,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.stereotype.Repository;
 
-import com.franz.cursomc.domain.Categoria;
+import com.franz.cursomc.domain.Produto;
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{
+public interface ProdutoRepository extends JpaRepository<Produto, Integer>{
 	
 }
