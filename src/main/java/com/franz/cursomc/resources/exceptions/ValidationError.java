@@ -1,6 +1,7 @@
 package com.franz.cursomc.resources.exceptions;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 public class ValidationError extends StandardError {
